@@ -1,0 +1,190 @@
+
+/* website style start */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: .5px red solid; */
+}
+
+body {
+
+    font-family: 'Staatliches', cursive;
+    /* font-family: 'Muli', sans-serif; */
+}
+
+/* Welcome banner section Style*/
+
+section {
+
+    height: 600px;
+
+}
+
+
+.top-banner {
+
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+
+.half-width-welcome {
+
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 4%;
+}
+
+.half-width-welcome img {
+
+    width: 100%;
+    padding-top: 50px;
+}
+
+
+h1 {
+
+    font-size: 60px;
+    letter-spacing: 3px;
+
+}
+
+
+.text-spacing {
+
+    margin-top: 150px;
+    
+}
+
+.orange-highlight {
+
+    color: orange;
+
+}
+
+
+h3 {
+
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+p {
+
+    font-family: 'Muli', sans-serif;
+    padding-bottom: 40px;
+}
+
+
+.button {
+
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+
+/* Dream section Style*/
+
+.dream-banner {
+
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+
+h2 {
+
+    font-size: 45px;
+    letter-spacing: 3px;
+
+}
+
+.half-width-dream img {
+
+    width: 100%;
+    padding-top: 50px;
+}
+
+.half-width-dream {
+
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 4%;
+}
+
+
+/* Experiences section Style*/
+
+.text-left {
+    
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 9%;
+    text-align: left;
+}
+
+.experiences-banner {
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.half-width-experiences{
+
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+    
+}
+
+.experiences-banner div {
+
+    box-shadow: 5px 7px 40px gray;
+    background-color: white;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 60%;
+}
+
+
+#full-stack {
+
+    border-left: 7px solid gray;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-stack {
+
+    border-left: 7px solid gray;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+
+
+
+/* Footer section Style*/
+
+#footer-text-center {
+    text-align: center;
+    padding-top: 120px;
+}
+
+
+/* website style end */
